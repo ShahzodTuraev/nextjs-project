@@ -1,0 +1,15 @@
+> Next Js is Full-stake framework by creating API;
+> Next Js features:
+	1. File based routing
+	2. Pre-rendering
+	3. API routes (one can create API in Next Js)
+	4. Support CSS modules
+	5. Authentification 
+	6. Dev and Prod build system (pay attantion more coding not configurations)
+
+> npx create-next-app next-tutorial
+
+ROUTING IN NEXTJS:
+
+>File system based routing mechanism;
+> When a file added to the pages it automatically becames available as a route
