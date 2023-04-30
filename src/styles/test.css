@@ -1,5 +1,20 @@
 .navbar, .footer{
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     background-color: coral;
     color: aliceblue;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    font-size: 20px;
+}
+.navbar ul li {
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color:blue
 }
