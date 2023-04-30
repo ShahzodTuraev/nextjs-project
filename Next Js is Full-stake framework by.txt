@@ -14,6 +14,8 @@ ROUTING IN NEXTJS:
 >File system based routing mechanism;
 > When a file added to the pages it automatically becames available as a route
 
+=====================================================
+
 > Next js da style berish:
 
 1. Global css orqali style beriladi
@@ -36,4 +38,35 @@ in About page: import style from '../style/Test.module.css'
 
 4. SAS orqali: npm i sas
 
-1 va 2 usullar kabi ishlaydi. .scss qilib file ochib ishlanadi
+1 va 2 usullar kabi ishlaydi. .scss qilib file ochib ishlanadi.
+
+=======================================================
+
+Navigate in Next Js
+
+import Link from 'next/link'
+
+<Link href = '/contact'>CONTACT</Link> 
+
+=======================================================
+
+IMAGE optimisation in NExt Js
+
+import Image from "next/image" -> Calling image from next libruary
+import pic from '../../public/city.jpg'
+const Form =()=>{
+    return(
+        <div>
+            <h1>hello</h1>
+            <Image src='/city.jpg' layout="intrinsic" width={900} height={650}/> ( layout="intrinsic" ->o'rnatilgan widthgacha responsive boladi)
+            <Image src={pic} layout="responsive" width={500} height={350}/> ( layout="responsive" -> to'liq ekran boyicha responsive boladi)
+
+        </div>
+    )
+}
+
+export default Form
+
+=======================================================
+
+DYNAMIC ROUTE  	
