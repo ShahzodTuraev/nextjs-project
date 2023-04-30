@@ -13,3 +13,27 @@ ROUTING IN NEXTJS:
 
 >File system based routing mechanism;
 > When a file added to the pages it automatically becames available as a route
+
+> Next js da style berish:
+
+1. Global css orqali style beriladi
+2. Module css orqali: 
+create Test.module.css in style folder -> 
+in About page: import style from '../style/Test.module.css'
+<h1 classname ={style.title}>HEllo</h1>
+
+3 style jsx orqali:
+
+<h1 classname =`title`>HEllo</h1>
+
+<style jsx>
+{`
+	.title{
+	color: red;
+}
+`}
+<style jsx/>
+
+4. SAS orqali: npm i sas
+
+1 va 2 usullar kabi ishlaydi. .scss qilib file ochib ishlanadi
