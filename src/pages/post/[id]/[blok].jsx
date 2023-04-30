@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 
 const Blok = () => {
     const router = useRouter();
-    const [id, blok] = router.query
+    const {id, blok} = router.query
   return (
     <div>
       <Home/>

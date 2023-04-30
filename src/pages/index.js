@@ -9,13 +9,13 @@ export default function Home() {
       <title >next Project</title>
       <meta name ="tutorial" content='this project run in Next Js only to study the framework'></meta>
     </Head>
-    <div className={style.box}>
-      <h1 className={style.title}>hello</h1>
-      <p className={style.note}>This is new project</p>
+    <div >
+      <h1 className={style.title}>HOME</h1>
+      
       <ul>
         <li>
           <Link href='/post/blok'>
-          <a>Blog</a>
+            Blok
           </Link>
         </li>
       </ul>
